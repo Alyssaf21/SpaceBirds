@@ -14,6 +14,9 @@ https://jeremyckahn.github.io/keydrown/
 */
 var moveDist = 9;
 
+/* Down arrow key makes the bird move down.
+    Checks and ensures bird does not go past the bottom 
+    of the screen.*/
 kd.DOWN.down = function () {
     var $bird = $("#bird");
     var birdTop = $bird.position().top;
@@ -38,6 +41,9 @@ kd.DOWN.down = function () {
     }
 };
 
+/* up arrow key makes the bird move up.
+    Checks and ensures bird does not go past the top 
+    of the screen.*/
 kd.UP.down = function () {
     var $bird = $("#bird");
     var birdTop = $bird.position().top;
@@ -59,6 +65,7 @@ kd.UP.down = function () {
     }
 };
 
+/* Same as above but left*/
 kd.LEFT.down = function () {
     var $bird = $("#bird");
     var birdLeft = $bird.position().left;
@@ -79,6 +86,7 @@ kd.LEFT.down = function () {
     }
 };
 
+/* Same as above but right*/
 kd.RIGHT.down = function () {
     var $bird = $("#bird");
     var birdLeft = $bird.position().left;

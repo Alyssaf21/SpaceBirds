@@ -1,0 +1,13 @@
+# Blender MTL File: 'morecake.blend'
+# Material Count: 1
+
+newmtl Material.001
+Ns 96.078431
+Ka 0.138790 0.138790 0.138790
+Kd 0.651957 0.554208 0.373364
+Ks 0.921708 0.605239 0.341201
+Ke 0.472000 0.401232 0.270306
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\acfus\OneDrive\Pictures\cake.png
